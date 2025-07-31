@@ -1,86 +1,133 @@
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Save Hands International</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #f5f9f6;
+      color: #333;
     }
     header {
-      background-color: #0a5c42;
+      background-color: #00704a;
       color: white;
+      padding: 40px 20px;
       text-align: center;
-      padding: 20px;
     }
-    section {
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
       padding: 20px;
-      max-width: 800px;
-      margin: auto;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
     .donation-method {
-      background: white;
+      margin-bottom: 20px;
       padding: 15px;
-      margin: 10px 0;
-      border-radius: 10px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      border-left: 6px solid #00704a;
+      background-color: #f0fdf6;
+      border-radius: 8px;
+    }
+    .donation-method strong {
+      display: block;
+      font-size: 1.1em;
+      margin-bottom: 5px;
     }
     .contact {
-      background: #e8f5f1;
-      padding: 20px;
       text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #e6f2ed;
       border-radius: 10px;
     }
-    a {
-      color: #0a5c42;
+    .contact a {
+      color: #00704a;
       text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #888;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      .donation-method {
+        font-size: 0.95em;
+      }
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Save Hands International</h1>
-    <p>Support a noble cause — Donate Today</p>
+    <p>Support a noble cause — Your donation makes a difference</p>
   </header>
-  <section>
-    <h2>Donate Now</h2>
+
+  <main>
+    <h2>Donation Methods</h2>
+
     <div class="donation-method">
-      <strong>Meezan Bank</strong><br />
-      Account Title: Muhammad Awais<br />
-      Account #: 98120111773166<br />
+      <strong>Meezan Bank</strong>
+      Account Title: Muhammad Awais<br/>
+      Account Number: 98120111773166<br/>
       IBAN: PK54MEZN0098120111773166
     </div>
+
     <div class="donation-method">
-      <strong>JazzCash</strong><br />
-      Account Title: Muhammad Awais<br />
-      Number: 0309 5655510<br />
+      <strong>JazzCash</strong>
+      Account Title: Muhammad Awais<br/>
+      Number: 0309 5655510<br/>
       IBAN: PK41JCMA1512923095655510
     </div>
+
     <div class="donation-method">
-      <strong>EasyPaisa</strong><br />
-      Account Title: Muhammad Awais<br />
-      Number: 0309 5655510<br />
+      <strong>EasyPaisa</strong>
+      Account Title: Muhammad Awais<br/>
+      Number: 0309 5655510<br/>
       IBAN: PK85TMFB0000000083641616
     </div>
+
     <div class="donation-method">
-      <strong>SadaPay</strong><br />
+      <strong>SadaPay</strong>
       Account #: 0325 5655510
     </div>
+
     <div class="donation-method">
-      <strong>NayaPay</strong><br />
-      ID: sukhera0325@nayapay<br />
+      <strong>NayaPay</strong>
+      ID: sukhera0325@nayapay<br/>
       Account #: 0325 5655510
     </div>
-  </section>
+  </main>
+
   <section class="contact">
-    <h2>Contact Us</h2>
-    <p>WhatsApp: <a href="https://wa.me/923175361882">0317 5361882</a><br />
-    Email: <a href="mailto:savehandsinternational@gmail.com">savehandsinternational@gmail.com</a></p>
+    <h2>Contact</h2>
+    WhatsApp: <a href="https://wa.me/923175361882">0317 5361882</a><br/>
+    Email: <a href="mailto:savehandsinternational@gmail.com">savehandsinternational@gmail.com</a>
   </section>
+
+  <footer>
+    &copy; 2025 Save Hands International. All rights reserved.
+  </footer>
+
 </body>
 </html>
